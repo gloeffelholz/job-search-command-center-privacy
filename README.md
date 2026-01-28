@@ -311,12 +311,24 @@ Expected response:
 
 ## Setup path B (advanced): GitHub + Vercel
 
-Use this path if you want maximum reliability and control, or if Path A gives you repeated authorization/deployment issues.
+Use this path if you want maximum reliability and control, or if Path A gives you repeated authorization/deployment issues.  Apps Script Web Apps can be fast to set up, but they sometimes fail in confusing ways (authorization prompts, deployment versions, account mismatches). Path B uses a standard backend on Vercel with explicit configuration, which is usually more predictable once set up. 
 
-Apps Script Web Apps can be fast to set up, but they sometimes fail in confusing ways (authorization prompts, deployment versions, account mismatches). Path B uses a standard backend on Vercel with explicit configuration, which is usually more predictable once set up.
+IMPORTANT NOTE: Google, Github and Vercel requirements here are met with FREE versions. Paid accounts are not required in any software to build or use the AI Agent.
 
 ## Connect the GPT
+
+
 ## Security & privacy
-## Troubleshooting
 
 For privacy details, see [PRIVACY.md](./PRIVACY.md).
+
+## Troubleshooting
+
+This is a public template provided as-is. There is no guaranteed support, but feedback and issue reports are welcome.
+
+If you run into problems or have suggestions:
+1. Try using ChatGPT to help diagnose and resolve the issue.  Just tell it what errors you are getting, share the code, and it can usually walk you through the right fix.
+2. If that doesn't work or you need more help open a GitHub issue in this repository (preferred)
+3. You can also use the support link provided inside the GPT
+4. If you encounter repeated authorization or deployment issues with Path A (Apps Script), consider switching to Path B. Those issues are often caused by Google account, permission, or deployment behavior rather than the template itself.
+
