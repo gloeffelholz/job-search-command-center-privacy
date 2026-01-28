@@ -47,6 +47,27 @@ High-level steps:
 4. Start using the Job Search Command Center
 
 ## Setup path A (recommended): Google Sheets + Apps Script
+
+This is the fastest way to get started. It uses Google Sheets as your database and Google Apps Script as a lightweight API.
+
+### What you’ll create
+- One Google Sheet to store your job pipeline
+- One Apps Script project attached to that sheet
+
+### Create the Google Sheet
+1. Create a new Google Sheet
+2. Name it something like:  
+   Job Search – Command Center
+3. Create a tab named:  
+   Opportunities
+4. Add these columns in row 1 (exact names):  
+   Company | Role | Location | Status | Date Applied | Source | Comp Range | Priority | Notes
+
+You can add more columns later, but do not rename these.
+
+### Next
+Once the sheet exists, you’ll add a small Apps Script backend to let the GPT read and write data.
+
 ## Setup path B (advanced): GitHub + Vercel
 ## Connect the GPT
 ## Security & privacy
