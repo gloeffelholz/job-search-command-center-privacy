@@ -48,7 +48,7 @@ High-level steps:
 
 ## Setup path A (recommended): Google Sheets + Apps Script
 
-This is the fastest way to get started. It uses Google Sheets as your database and Google Apps Script as a lightweight API.
+This is the fastest way to get started. It uses Google Sheets as your database and Google Apps Script as a lightweight API. If you run into repeated authorization or deployment issues, switch to Path B. Path B is more reliable because it uses a standard API and explicit credentials.
 
 ### What you’ll create
 - One Google Sheet to store your job pipeline
@@ -310,6 +310,11 @@ Expected response:
 
 
 ## Setup path B (advanced): GitHub + Vercel
+
+Use this path if you want maximum reliability and control, or if Path A gives you repeated authorization/deployment issues.
+
+Apps Script Web Apps can be fast to set up, but they sometimes fail in confusing ways (authorization prompts, deployment versions, account mismatches). Path B uses a standard backend on Vercel with explicit configuration, which is usually more predictable once set up.
+
 ## Connect the GPT
 ## Security & privacy
 ## Troubleshooting
