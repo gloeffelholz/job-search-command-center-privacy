@@ -17,10 +17,11 @@ You will run everything in your own accounts:
 - You control all credentials and access
 
 No job data, resumes, or private information are included or stored by this project.
+## Quick start (≈30 minutes)
 
-## Quick start (30 minutes)
+This template starts empty. Most people can be up and running in about **30 minutes** using Google Sheets.
 
-This template starts empty. Most people can be up and running in about **30 minutes** using Google Sheets.  Working through Vercel and Github will take longer, but you'll learn more by taking this path as well.  Good luck!
+Working through Vercel and GitHub will take longer, but provides more control and a production-style setup.
 
 Before you begin, you’ll need:
 - A Google account
@@ -32,7 +33,7 @@ High-level steps:
 2. Set up a lightweight backend
 3. Paste your resume and configuration into the GPT
 4. Start using the Job Search Command Center
-
+   
 ## Which setup path should I choose?
 
 **Start with Path A unless you have a clear reason not to.**
