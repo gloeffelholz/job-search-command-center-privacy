@@ -239,21 +239,21 @@ These tests confirm your Apps Script Web App is reachable and can read and write
 ### Health check (GET)
 
 Paste this into a browser, replacing `YOUR_WEB_APP_URL` with your deployed Apps Script Web App URL:
-
+```
 YOUR_WEB_APP_URL?action=health
+```
 
 Expected response:
-
+```
 {"ok":true,"message":"ok"}
-
----
+```
 
 ### List rows (GET)
 
 Paste this into a browser:
-
+```
 YOUR_WEB_APP_URL?action=list
-
+```
 Expected result:
 - If your sheet only has headers, `rows` will be empty
 - Otherwise, `rows` will contain your job data keyed by column name
@@ -263,7 +263,7 @@ Expected result:
 ### Append a test row (POST)
 
 This should add a new row to your sheet.
-
+```
 curl -X POST "YOUR_WEB_APP_URL?action=append" \
   -H "Content-Type: application/json" \
   -d '{
@@ -279,31 +279,29 @@ curl -X POST "YOUR_WEB_APP_URL?action=append" \
       "Notes": "Created during backend test"
     }
   }'
+```
 
 Expected response:
-
+```
 {"ok":true,"appended":true}
-
+```
 Refresh the Google Sheet and confirm the row appears.
-
----
 
 ### Update the test row (POST)
 
 This updates rows by matching Company + Role.
-
+```
 curl -X POST "YOUR_WEB_APP_URL?action=update" \
   -H "Content-Type: application/json" \
   -d '{
     "match": { "Company": "Test Company", "Role": "Test Role" },
     "updates": { "Status": "Interviewing", "Notes": "Updated during backend test" }
   }'
-
+```
 Expected response:
-
+```
 {"ok":true,"updatedCount":1}
-
----
+```
 
 ### Common errors
 
