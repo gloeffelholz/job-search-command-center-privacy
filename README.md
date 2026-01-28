@@ -68,6 +68,15 @@ You can add more columns later, but do not rename these.
 ### Next
 Once the sheet exists, you’ll add a small Apps Script backend to let the GPT read and write data.
 
+### Add the Apps Script backend
+
+1. In your Google Sheet, click:
+   Extensions → Apps Script
+2. Delete any existing code in the editor.
+3. This script will expose a simple HTTP endpoint that the GPT can call to read and update your sheet.
+
+
+
 ## Setup path B (advanced): GitHub + Vercel
 ## Connect the GPT
 ## Security & privacy
