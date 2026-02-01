@@ -1,7 +1,9 @@
 # Job Search Command Center — Public Template
 
 ## What this is
-This repository contains the setup guide for the **Job Search Command Center – Public Template**.
+This repository contains the setup guide for the **Job Search Command Center – Public Template** 
+
+Public GPT Template: https://chatgpt.com/g/g-697a162c9eb08191a5f24fb6c6f74980-job-search-command-center-public-template
 
 The Job Search Command Center is a configurable ChatGPT-based tool that helps you:
 - Triage and prioritize job opportunities
